@@ -137,10 +137,12 @@ public class JacobCardosoRPSLZ {
                     
                         if (cWins == 2) {
                             System.out.println("\nComputer Wins The Match " + cWins + " to " + pWins);
+                            tcWins += 1;
                             val = false;
                         }
                         if (pWins == 2) {
                             System.out.println("\nPlayer Wins The Match " + pWins + " to " + cWins);
+                            tpWins += 1;
                             val = false;
                         }
                     }
@@ -157,10 +159,12 @@ public class JacobCardosoRPSLZ {
 
                         if (cWins == 3) {
                             System.out.println("\nComputer Wins The Match " + cWins + " to " + pWins);
+                            tcWins += 1;
                             val = false;
                         }
                         else if (pWins == 3) {
                             System.out.println("\nPlayer Wins The Match " + pWins + " to " + cWins);
+                            tpWins += 1;
                             val = false;
                         }
                     }
